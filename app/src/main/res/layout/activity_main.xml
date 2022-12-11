@@ -35,14 +35,7 @@
         app:layout_constraintStart_toStartOf="@+id/re"
         app:layout_constraintTop_toBottomOf="@+id/re" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:text="SQL "
-        app:layout_constraintStart_toStartOf="@+id/wr"
-        app:layout_constraintTop_toBottomOf="@+id/wr" />
+
 
     <EditText
         android:id="@+id/et1"

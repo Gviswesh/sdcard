@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        File f = new File("/sdcard/m.txt");
+        File f = new File("/sdcard/new.txt");
 
         try {
             f.createNewFile();
@@ -86,10 +86,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         findViewById(R.id.clr).setOnClickListener(v->et1.setText(""));
-        findViewById(R.id.button4).setOnClickListener(v->{
-            Intent i = new Intent(this,MainActivity2.class);
-            startActivity(i);
-        });
+        //findViewById(R.id.button4).setOnClickListener(v->{
+            //Intent i = new Intent(this,MainActivity2.class);
+           // startActivity(i);
+        //});
     }
 
 
